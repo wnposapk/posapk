@@ -1,0 +1,158 @@
+name: kasir
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.1.1+567
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5
+  dio: ^4.0.6
+  json_annotation: ^4.6.0
+  get_storage: ^2.0.3
+  provider: ^6.0.3
+  firebase_core: ^1.20.0
+  firebase_messaging: ^11.4.4
+  # firebase_performance: ^0.8.2+1
+  # firebase_crashlytics: ^2.8.6
+  firebase_analytics: ^9.3.0
+  flutter_local_notifications: ^9.7.0
+  community_material_icon: ^5.9.55
+  qr_flutter: ^4.0.0
+  scan: ^1.6.0
+  badges: ^2.0.3
+
+  intl: ^0.17.0
+
+  fcm_config: ^3.3.7
+  syncfusion_flutter_sliders: ^20.1.47
+  url_launcher: ^6.0.17
+  flutter_device_type: ^0.4.0
+  shimmer: ^2.0.0
+  flutter_countdown_timer: ^4.1.0
+  uuid: ^3.0.5
+  scrollable_list_tabview:
+    path: packages/scrollable_list_tabview-0.1.6
+  product:
+    path: ../kopi_arasta_crm/packages/product
+
+  device_information: ^0.0.4
+  permission_handler: ^10.0.0
+  dio_cache_interceptor: ^3.3.0
+  numeric_keyboard: ^1.1.0
+  websafe_svg: ^2.1.2+1
+  sizer: ^2.0.15
+  feather_icons: ^1.2.0
+  webview_flutter: ^3.0.4
+  cached_network_image: ^3.2.1
+  flutter_barcode_listener: ^0.1.3
+  timeago: ^3.1.0
+  easy_localization: ^3.0.0
+  package_info_plus: ^1.4.0
+  mdi: ^4.0.0
+  share_plus: ^4.0.3
+  drag_and_drop_gridview: ^1.0.8
+  # slide_digital_clock: ^1.0.2
+  collection: ^1.15.0
+  device_info_plus: ^3.2.2
+  connectivity_plus: ^2.2.1
+  # epson_epos: ^0.0.1+7
+  esc_pos_printer: ^4.1.0
+  esc_pos_bluetooth: ^0.4.1
+  esc_pos_utils: ^1.1.0
+  network_info_plus: ^2.1.3
+  table_layout:
+    path: packages/table_layout
+  image_picker: ^0.8.5+3
+  ping_discover_network: ^0.2.0+1
+  flutter_toastr: ^1.0.3
+  in_app_update: ^3.0.0
+  presentation_displays: ^0.2.3
+  file_selector: ^0.8.4+2
+  blue_thermal_printer: 1.2.3
+  queue: ^3.1.0+1
+
+  carousel_slider: ^4.1.1
+  barcode_widget: ^2.0.1
+  r_upgrade: ^0.3.8+2
+  yaml: ^3.1.1
+  vertical_scrollable_tabview: ^0.0.7
+  regexed_validator: ^2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.8
+  json_serializable: ^6.1.5
+  flutter_gen_runner: ^4.1.6
+  icons_launcher: ^1.1.8
+
+# dependency_overrides:
+#   firebase_messaging_platform_interface: 3.1.6
+#   analyzer: 3.4.1
+
+flutter_icons:
+  android: true
+  ios: false
+  macos: true
+  image_path: "assets/icon/logo.png"
+  image_path_ios: "assets/icon/logo.png"
+  image_path_macos: "assets/icon/logo_rounded.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/logo.png"
+  adaptive_icon_round: "assets/icon/logo_rounded.png"
+  remove_alpha_ios: true
+  remove_alpha_macos: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icon/
+    - assets/translations/
+    - assets/mp3/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
