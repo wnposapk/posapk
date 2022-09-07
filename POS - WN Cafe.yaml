@@ -5,7 +5,7 @@ description: A new Flutter project.
 # pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
-version: 1.1.12+624
+version: 1.1.13+634
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -78,7 +78,8 @@ dependencies:
   in_app_update: ^3.0.0
   presentation_displays: ^0.2.3
   file_selector: ^0.8.4+2
-  blue_thermal_printer: 1.2.3
+  blue_thermal_printer:
+    path: packages/blue_thermal_printer
   queue: ^3.1.0+1
 
   carousel_slider: ^4.1.1
