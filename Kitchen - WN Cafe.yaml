@@ -5,7 +5,7 @@ description: A new Flutter project.
 # pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
-version: 1.1.21+709
+version: 1.1.21+714
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -89,6 +89,7 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   audioplayers: ^1.0.1
+  mobile_scanner: ^2.0.0
   # flutter_bluetooth_basic: ^0.1.7
 
 dev_dependencies:
